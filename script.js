@@ -1,6 +1,6 @@
-function onRightClick(e) {
+function onLeftClick(e) {
   e.preventDefault();
 }
 
 // capture right click event
-addEventListener("contextmenu", onRightClick);
+addEventListener("contextmenu", onLeftClick);
